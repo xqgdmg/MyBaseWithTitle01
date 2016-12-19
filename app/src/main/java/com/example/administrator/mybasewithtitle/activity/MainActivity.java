@@ -143,8 +143,10 @@ public class MainActivity extends BaseActivity {
         }
     }
 
-    //更新联系人界面数据
-    private void updateContactFragment() {
+    /**
+     * 更新 Fragment 界面数据
+     */
+    private void updateFragment1() {
         //判断联系人界面有没有添加
         Fragment1 fragment1 = (Fragment1) fragments.get(1);
         if (fragment1.isAdded()) {

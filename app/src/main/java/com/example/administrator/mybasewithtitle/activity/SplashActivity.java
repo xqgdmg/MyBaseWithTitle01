@@ -51,7 +51,7 @@ public class SplashActivity extends BaseActivity {
                 public void run() {
                     startNewActivity(MainActivity.class, true);
                 }
-            }, 2000);
+            }, 4000);
         } else {
             //没有登录 进入登录界面
             handler.postDelayed(new Runnable() {
@@ -59,7 +59,7 @@ public class SplashActivity extends BaseActivity {
                 public void run() {
                     startNewActivity(MainActivity.class, true);
                 }
-            }, 2000);
+            }, 4000);
         }
     }
 

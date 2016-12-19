@@ -53,6 +53,9 @@ public abstract class BaseActivity  extends AppCompatActivity implements View.On
     private RelativeLayout rlLoading;
     private InputMethodManager imm;
 
+    /**
+     * onCreate 处理了所有操作
+     */
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
